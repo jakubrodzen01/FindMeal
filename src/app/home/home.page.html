@@ -1,11 +1,8 @@
-<ion-content class="ion-padding welcome-container">
-  <div class="welcome-box">
-    <h1>Welcome to <span>FindMeal</span>!</h1>
-    <p>Discover, choose, and enjoy your meals with ease.</p>
-  </div>
-
-  
+<ion-content fullscreen class="home-container">
   <div class="map-container">
     <div id="map"></div>
+    <button class="center-button" (click)="centerMap()">
+      <mat-icon>my_location</mat-icon>
+    </button>
   </div>
 </ion-content>
